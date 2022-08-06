@@ -1,0 +1,122 @@
+
+.home-banner{
+    margin-top: 40px;
+    background: url(./home-banner.png);
+    background-position: center;
+   overflow: none;
+   
+}
+
+.home-banner>p{
+    position: relative;
+    font-size: 57px;
+    z-index: 1000;
+    color: white;
+    left: 380px;
+}
+
+.searchbox{
+    position: relative;
+    margin-top: 300px;
+    bottom: 20px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.search>input{
+    width: 800px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+::placeholder{
+    font-size: 30px;
+    padding-left: 50px;
+    font-style: italic;
+}
+
+.search button{
+    position: absolute;
+    margin-left: 700px;
+    background-color: white;
+    border: none;
+}
+
+.search-icon{
+position: relative;
+font-size: 40px;
+}
+
+.home-desc{
+    background: #713333;
+    color: white;
+    max-width: 70%;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 180px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-right: 105px;
+    border-radius: 137px;
+}
+
+.home-desc>p{
+    font-size: 38px;
+    font-style: italic;
+    line-height: 1.1;
+}
+
+.home-desc>h3{
+    font-size: 55px;
+}
+
+.logo{
+    margin: 0;
+    padding: 0;
+    max-width: 18%;
+    position: absolute;
+    background: #333333;
+    border-radius: 400px;
+    top: 38rem;
+    right: 9rem;
+}
+
+.circle{
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    background: #333333;
+    border-radius: 400px;
+    top: 63.2rem;
+    left: 10rem;
+}
+
+
+.star{
+    margin: 0;
+    padding: 0;
+    width: 65%;
+    position: absolute;
+    background: #333333;
+    border-radius: 400px;
+    top: 9em;
+    left: 3rem;
+}
+
+.hand{
+    margin: 0;
+    padding: 0;
+    width: 18%;
+    position: absolute;
+    background: #333333;
+    border-radius: 400px;
+    top: 86em;
+    right: 9rem;
+}
+
